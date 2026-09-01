@@ -6,7 +6,7 @@ public class Main{
 
         private final int ml;
 
-        private CoffeeSize(int ml) {
+        CoffeeSize(int ml) {
             this.ml = ml;
         }
 
