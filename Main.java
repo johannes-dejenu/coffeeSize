@@ -8,15 +8,9 @@ public class Main{
     public static void main(String[] args) {
         coffeeSize size = coffeeSize.MEDIUM;
         switch (size){
-            case SMALL:
-                System.out.println("small coffee.");
-                break;
-            case MEDIUM:
-                System.out.println("medium coffee.");
-                break;
-            case LARGE:
-                System.out.println("large coffee.");
-                break;
+            case SMALL -> System.out.println("small coffee.");
+            case MEDIUM -> System.out.println("medium coffee.");
+            case LARGE -> System.out.println("large coffee.");
         }
     }
 }
