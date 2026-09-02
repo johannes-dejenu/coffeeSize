@@ -21,7 +21,11 @@ public class Main{
     }
 
     public static void main(String[] args) {
-        CoffeeSize size = CoffeeSize.MEDIUM;
-        System.out.println(size.getMl());
+        // CoffeeSize size = CoffeeSize.MEDIUM;
+        // System.out.println(size.getMl());
+
+        for (CoffeeSize size : CoffeeSize.values()){
+            System.out.println(size + " -> ml = " + size.getMl() + ", price = " + size.getPrice());
+        }
     }
 }
